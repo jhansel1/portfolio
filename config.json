@@ -186,7 +186,8 @@
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -209,12 +210,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "27.1894%",
-            "right": "8.3252%",
-            "top": "23.876700000000024%",
-            "bottom": "8.138400000000006%",
+            "left": "27.1887%",
+            "right": "8.3259%",
+            "top": "19.7879%",
+            "bottom": "8.1417%",
             "width": "64.4854%",
-            "height": "67.9869%"
+            "height": "72.0703%"
           },
           "widgetId": "widget_7",
           "isPending": false,
@@ -248,6 +249,23 @@
           },
           "widgetId": "widget_205",
           "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "21.7014%",
+            "right": "74.2956%",
+            "top": 22,
+            "bottom": "80.2121%",
+            "width": "4.0030%",
+            "height": "12.0348%"
+          },
+          "widgetId": "widget_206",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       }
     },
@@ -3794,6 +3812,20 @@
         }
       },
       "id": "widget_205"
+    },
+    "widget_206": {
+      "uri": "widgets/common/text/",
+      "version": "1.2.0",
+      "label": "Text 55",
+      "config": {
+        "text": "<p><strong style=\"font-size: 18px;\">test</strong></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_206"
     }
   },
   "widgetsManifest": {},
